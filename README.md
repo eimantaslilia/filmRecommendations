@@ -7,6 +7,6 @@ First one has Films - List of Ratings as key value pairs. This is used to store 
 Second one has People as keys and their film - rating pairs as values in a hashmap.
   
 Classes in the package comparator such as FilmComparator, PersonComparator lets us compare the movies and figure out the highest rated ones.  
-Classes in the package domain such as Film, Person, Rating inside of package domain lets us create objects of films, movies, and have have ratings as enums.
+Classes in the package domain such as Film, Person, Rating lets us create objects of films, movies, and have have ratings as enums.
 
 If we want a recommendation for a person that hasn't seen any of the movies yet, we use the class Reference that helps us figure out the highest rated movie and return it as the recommendation.
